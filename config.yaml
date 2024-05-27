@@ -1,0 +1,13 @@
+server:
+  port: 3000
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "1"
+  dbname: "currency_conversion"
+  sslmode: "disable"
+
+external_api:
+  url: "https://api.exchangerate-api.com/v4/latest/"
